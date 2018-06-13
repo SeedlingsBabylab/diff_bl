@@ -11,7 +11,7 @@ will produce 2 csv's. one is called ```mismatch.csv```, the other ```not_found.c
 
 ```mismatch.csv``` lists those entries that match between old vs. new, but one of the codes is different
 
-```not_found.csv``` lists those entries that either exists in the new.csv but not in the old.csv (new_delete column will equal "new"), or viceverse (new_delete column will equal "delete")
+```not_found.csv``` lists those entries that either exists in the new.csv but not in the old.csv (```new_delete``` column will equal "new"), or viceverse (```new_delete``` column will equal "delete")
 
 #### how do we determine a "match"?
 
